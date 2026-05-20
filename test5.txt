@@ -1,0 +1,23 @@
+Why is CLI?
+We commonly use mouse to access the files 
+So without using mouse to access files from diff directories we use CLI 
+We write commands in the cmd and can access the files
+Commands used in windows and mac are in "serverspace.io/support/help/windows-cmd-commands-cheat-sheet/"
+
+Operations on github using CLI
+1.create a file in github manually using UI
+2.To download files of github into our machine 
+   *click on code in github and click on download as zip
+   *In cmd type command "git clone url" you should place the path of the https url in place of url
+3.After downloading the files to machine make some changes in the folder
+ *Like save new files in the folder
+4.Push the latest files into the git
+  *To know whether there are any new files in the machine we use
+  -"git status" command if there are any files in red color we have to add the files
+  *To send add request to the git we use "git add file_name"
+  then the files in red color becomes green
+  *After sending the request we have to commit the files, to commit the files we use
+  -(git commit -m "adding new files")
+  hence the files are committed in git but not saved so we cannot see these files
+  *To save the files and see them in git ,we have to push the files using the command
+  -"git push origin main"
